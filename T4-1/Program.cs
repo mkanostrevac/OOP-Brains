@@ -10,6 +10,12 @@ namespace T4_1
     {
         static void Main(string[] args)
         {
+            Motor m = new Motor(true, "dizel", 100, 1999);
+
+            m.Ukljuci();
+            m.StampajPodatke();
+
+            Console.Read();
         }
     }
 }
