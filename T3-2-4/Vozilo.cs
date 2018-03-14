@@ -43,11 +43,6 @@ namespace T3_2_4
             return godiste;
         }
 
-        public Osoba GetVlasnik()
-        {
-            return vlasnik;
-        }
-
         public void PrenosVlasnistva(Osoba noviVlasnik)
         {
             vlasnik = noviVlasnik;

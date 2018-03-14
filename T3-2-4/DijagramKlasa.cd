@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="T3_2_4.Automobil">
+    <Position X="3.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Automobil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T3_2_4.Kamion">
+    <Position X="1" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kamion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T3_2_4.Motocikl">
+    <Position X="6" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Motocikl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T3_2_4.Osoba">
+    <Position X="0.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEAAAAAEAAAAAAAAAAAAAQAAAAAIAQAAAAEAAA=</HashCode>
+      <FileName>Osoba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T3_2_4.Vozilo">
+    <Position X="3.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIBAABAAIgAAEAgAAAAABAEAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Vozilo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vlasnik" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
