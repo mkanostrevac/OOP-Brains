@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B3E630DD-2ED9-4B04-BD39-4FAE1B0BB202}</ProjectGuid>
+    <ProjectGuid>{29C0C725-4AF2-4B2A-8CA4-3E0C8B2C4FA3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>T4_1</RootNamespace>
-    <AssemblyName>T4-1</AssemblyName>
+    <RootNamespace>T3_2_4</RootNamespace>
+    <AssemblyName>T3-2-4</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Motor.cs" />
+    <Compile Include="Automobil.cs" />
+    <Compile Include="Kamion.cs" />
+    <Compile Include="Motocikl.cs" />
+    <Compile Include="Osoba.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vozilo.cs" />
