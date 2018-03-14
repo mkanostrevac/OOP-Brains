@@ -21,44 +21,50 @@ namespace T4_1
             this.kubikaza = kubikaza;
         }
 
-        public bool Radi
+        public void PostaviRadi(bool radi)
         {
-            get { return this.radi; }
-            set { this.radi = value; }
+            this.radi = radi;
         }
 
-        public string Tip
+        public bool PribaviRadi()
         {
-            get { return this.tip; }
+            return radi;
         }
 
-        public int Snaga
+        public string PribaviTip()
         {
-            get { return this.snaga; }
+            return tip;
         }
 
-        public int Kubikaza
+        public int PribaviSnagu()
         {
-            get { return this.kubikaza; }
+            return snaga;
+        }
+
+        public int PribaviKubikazu()
+        {
+            return kubikaza;
         }
 
         public void Ukljuci()
         {
-            Radi = true;
+            PostaviRadi(true);
         }
 
         public void Iskljuci()
         {
-            Radi = false;
+            PostaviRadi(false);
         }
 
         public void StampajPodatke()
         {
             Console.WriteLine("Informacije o motoru:");
-            Console.WriteLine("Ukljucen: " + Radi +
-                " Tip: " + Tip +
-                " Snaga: " + Snaga +
-                " Kubikaza: " + Kubikaza);
+            Console.WriteLine(
+                "Ukljucen:" + PribaviRadi() +
+                " Tip: " + PribaviTip() +
+                " Snaga: " + PribaviSnagu() +
+                " Kubikaza: " + PribaviKubikazu()
+            );
         }
     }
 }

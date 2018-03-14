@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="T4_1.Automobil">
+    <Position X="1" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAIAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Automobil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T4_1.Kamion">
+    <Position X="3.75" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kamion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T4_1.Motocikl">
+    <Position X="6.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAICAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Motocikl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T4_1.Motor">
+    <Position X="0.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAABAAAIAAAAAAAAAAAAAEAEAAEAAAAqBgCAAA=</HashCode>
+      <FileName>Motor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T4_1.Osoba">
+    <Position X="6.75" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAEAAAAAEAAAAAAAAAAAAAQAAAAAIAQAAAAEAAA=</HashCode>
+      <FileName>Osoba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="T4_1.Vozilo">
+    <Position X="3.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIBAABAQIgAAEAgAAAAABAGAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Vozilo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pogonskiAgregat" />
+      <Field Name="vlasnik" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
