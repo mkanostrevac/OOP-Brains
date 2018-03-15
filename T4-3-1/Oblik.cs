@@ -34,12 +34,12 @@ namespace T4_3_1
 
         public virtual double RacunajObim()
         {
-            return 0;
+            throw new NotImplementedException();
         }
 
         public virtual double RacunajPovrsinu()
         {
-            return 0;
+            throw new NotImplementedException();
         }
 
         public void StampajPodatke()
