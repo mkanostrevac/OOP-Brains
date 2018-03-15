@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B3E630DD-2ED9-4B04-BD39-4FAE1B0BB202}</ProjectGuid>
+    <ProjectGuid>{71DBB1F8-05D6-4A12-B290-5DB7DC33B9BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>T4_1</RootNamespace>
-    <AssemblyName>T4-1</AssemblyName>
+    <RootNamespace>T4_3_1</RootNamespace>
+    <AssemblyName>T4-3-1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,18 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Automobil.cs" />
-    <Compile Include="Kamion.cs" />
-    <Compile Include="Motocikl.cs" />
-    <Compile Include="Motor.cs" />
-    <Compile Include="Osoba.cs" />
+    <Compile Include="Krug.cs" />
+    <Compile Include="Kvadrat.cs" />
+    <Compile Include="Oblik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Vozilo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="DijagramKlasa.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
