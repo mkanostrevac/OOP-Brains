@@ -18,15 +18,8 @@ namespace T4_3_2
 
         public string DevojackoPrezime
         {
-            get
-            {
-                return devojackoPrezime;
-            }
-
-            set
-            {
-                devojackoPrezime = value;
-            }
+            get { return devojackoPrezime; }
+            set { devojackoPrezime = value; }
         }
 
         public override void PredstaviSe()

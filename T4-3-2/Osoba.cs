@@ -21,41 +21,20 @@ namespace T4_3_2
 
         public string Ime
         {
-            get
-            {
-                return ime;
-            }
-
-            set
-            {
-                ime = value;
-            }
+            get { return ime; }
+            set { ime = value; }
         }
 
         public string Prezime
         {
-            get
-            {
-                return prezime;
-            }
-
-            set
-            {
-                prezime = value;
-            }
+            get { return prezime; }
+            set { prezime = value; }
         }
 
         public int Starost
         {
-            get
-            {
-                return starost;
-            }
-
-            set
-            {
-                starost = value;
-            }
+            get { return starost; }
+            set { starost = value; }
         }
 
         public virtual void PredstaviSe()
