@@ -10,7 +10,7 @@ namespace T4_3_1
     {
         static void Main(string[] args)
         {
-            Oblik oblik = new Oblik("Zeleni", "Kvadrat");
+            Oblik oblik = new Oblik("Zeleni", "Trougao");
             //oblik.RacunajPovrsinu();
 
             Oblik krug = new Krug("Crveni", 3);
