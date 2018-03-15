@@ -22,7 +22,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="T4_1.Motor">
-    <Position X="0.75" Y="0.75" Width="2" />
+    <Position X="0.75" Y="1.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAIAABAAAIAAAAAAAAAAAAAEAEAAEAAAAqBgCAAA=</HashCode>
       <FileName>Motor.cs</FileName>
