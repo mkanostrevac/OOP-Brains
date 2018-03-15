@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace T4_3_1
 {
-    abstract class Oblik
+    class Oblik
     {
         private string boja;
         private string tip;
@@ -32,9 +32,15 @@ namespace T4_3_1
             return tip;
         }
 
-        public abstract double RacunajObim();
+        public virtual double RacunajObim()
+        {
+            return 0;
+        }
 
-        public abstract double RacunajPovrsinu();
+        public virtual double RacunajPovrsinu()
+        {
+            return 0;
+        }
 
         public void StampajPodatke()
         {
