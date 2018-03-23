@@ -11,8 +11,26 @@ namespace T6_4_2
         static void Main(string[] args)
         {
             Console.WriteLine(Koren(2, 3, -4));
-            Console.WriteLine(Koren(0, 3, 4));
-            Console.WriteLine(Koren(2, 3, 4));
+
+            try
+            {
+                Console.WriteLine(Koren(0, 3, 4));
+
+            }
+            catch (ArgumentException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            try
+            {
+                Console.WriteLine(Koren(2, 3, 4));
+            }
+            catch (InvalidOperationException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
             Console.ReadKey();
         }
         
