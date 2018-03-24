@@ -49,6 +49,7 @@ namespace T6_4_5
                 }
             }
 
+            Console.WriteLine("Pritisni key za citanje stringova...");
             Console.ReadKey();
         }
 
