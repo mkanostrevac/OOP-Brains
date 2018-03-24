@@ -28,8 +28,8 @@ namespace T6_4_8
                 double vrednost = double.Parse(podaci[2], CultureInfo.InvariantCulture);
                 bool itKompanija = bool.Parse(podaci[3]);
 
-                Console.WriteLine(string.Format("{0}: Kompanija {1} vredi {2} milijardi dolara. Da li je to IT kompanije? {3}",
-                    redniBroj, naziv, vrednost, itKompanija));
+                Console.WriteLine("{0}: Kompanija {1} vredi {2} milijardi dolara. Da li je to IT kompanije? {3}",
+                    redniBroj, naziv, vrednost, itKompanija);
             }
 
             Console.ReadKey();

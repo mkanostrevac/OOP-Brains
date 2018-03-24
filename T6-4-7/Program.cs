@@ -20,7 +20,7 @@ namespace T6_4_7
             double plata = 0;
             double.TryParse(Console.ReadLine(), out plata);
 
-            Console.WriteLine(string.Format("JMBG: {0}, Ime: {1}, Plata: {2}", jmbg, ime, plata));
+            Console.WriteLine("JMBG: {0}, Ime: {1}, Plata: {2}", jmbg, ime, plata);
 
             Console.ReadKey();
         }
